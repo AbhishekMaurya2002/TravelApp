@@ -36,7 +36,7 @@ const connect = async () => {
 app.use(express.json());
 // app.use(cors());
 app.use(cors({
-    origin: 'https://travel-app-qkxa.vercel.app', // Replace with your frontend URL
+    origin: 'http://localhost:8000/', // Replace with your frontend URL
     credentials: true // Allow credentials (cookies) to be sent with requests
   }));
 app.use(cookieParser());
